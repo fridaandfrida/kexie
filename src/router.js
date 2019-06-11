@@ -25,6 +25,10 @@ export default new Router({
         {
           path: '/user',
           component: () => import('./pages/user.vue')
+        },
+        {
+          path: '/money',
+          component: () => import('./pages/money.vue')
         }
       ]
     }
